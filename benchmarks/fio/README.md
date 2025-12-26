@@ -11,7 +11,7 @@ This repository contains the fio external plugin used for benchmarking phoenix.
 ```shell
 git submodule update --init --recursive
 cd third-party/fio
-./configure && make -j && sudo make 
+./configure && make -j && sudo make install
 ```
 ### 2. build ioengine
 ```shell
